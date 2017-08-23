@@ -108,7 +108,7 @@ let titles = recipes.map() { $0.title }
 let titles = recipes.map { $0.title }
 ```
 
-- **[MUST]** Use shorthand argument if closure is defined on a single line.
+- **[SHOULD]** Use shorthand argument if closure is defined on a single line.
     - In contrast, do not use it if the closure is defined on multiple lines.
 
 ```swift

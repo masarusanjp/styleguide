@@ -108,7 +108,7 @@ let titles = recipes.map() { $0.title }
 let titles = recipes.map { $0.title }
 ```
 
-- **[MUST]** クロージャーの定義が1行だけの場合はshorthand argumentを利用すること。逆に複数行にわたる場合は利用を避けること
+- **[SHOULD]** クロージャーの定義が1行だけの場合はshorthand argumentを利用すること。逆に複数行にわたる場合は利用を避けること
 
 ```swift
 // Bad
